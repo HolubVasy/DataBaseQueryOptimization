@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBaseQueryOptimization.DAL", "DataBaseQueryOptimization.DAL\DataBaseQueryOptimization.DAL.csproj", "{A2F7350B-D608-4F02-B109-9375C93CCEB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBaseQueryOptimization.DAL.Common", "DataBaseQueryOptimization.DAL.Common\DataBaseQueryOptimization.DAL.Common.csproj", "{A39736AE-1CDD-44A8-8301-E50221E21AEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBaseQueryOptimization.BL.Common", "DataBaseQueryOptimization.BL.Common\DataBaseQueryOptimization.BL.Common.csproj", "{D7FD3243-5872-428D-94E7-097232DB61F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBaseQueryOptimization.BL", "DataBaseQueryOptimization.BL\DataBaseQueryOptimization.BL.csproj", "{FC3388FD-22C3-4FFF-8EF8-DF5DF0DAECE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BC9F7433-F4B1-4B48-961C-3F140E0A3C3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBaseQueryOptimization.UnitTests", "..\tests\DataBaseQueryOptimization.UnitTests\DataBaseQueryOptimization.UnitTests.csproj", "{2238327F-8224-4896-ACBA-B6B55218D1B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2F7350B-D608-4F02-B109-9375C93CCEB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2F7350B-D608-4F02-B109-9375C93CCEB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2F7350B-D608-4F02-B109-9375C93CCEB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2F7350B-D608-4F02-B109-9375C93CCEB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A39736AE-1CDD-44A8-8301-E50221E21AEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A39736AE-1CDD-44A8-8301-E50221E21AEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A39736AE-1CDD-44A8-8301-E50221E21AEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A39736AE-1CDD-44A8-8301-E50221E21AEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7FD3243-5872-428D-94E7-097232DB61F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7FD3243-5872-428D-94E7-097232DB61F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7FD3243-5872-428D-94E7-097232DB61F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7FD3243-5872-428D-94E7-097232DB61F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC3388FD-22C3-4FFF-8EF8-DF5DF0DAECE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3388FD-22C3-4FFF-8EF8-DF5DF0DAECE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3388FD-22C3-4FFF-8EF8-DF5DF0DAECE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3388FD-22C3-4FFF-8EF8-DF5DF0DAECE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2238327F-8224-4896-ACBA-B6B55218D1B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2238327F-8224-4896-ACBA-B6B55218D1B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2238327F-8224-4896-ACBA-B6B55218D1B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2238327F-8224-4896-ACBA-B6B55218D1B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2238327F-8224-4896-ACBA-B6B55218D1B6} = {BC9F7433-F4B1-4B48-961C-3F140E0A3C3B}
+	EndGlobalSection
+EndGlobal
